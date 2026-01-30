@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>typogrphy</title>
+    <style>
+        .text1 {
+            font-size: 16px;
+            color: red;
+        }
+
+        .p1 {
+            font-family:'Courier New', Courier, monospace;
+            color: blue;
+        }
+
+        div {
+            width: 500px;
+            height: 300px;
+            background-color: yellow;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        #myDiv {
+            background-color: lightgreen;
+            transform: rotate(180deg);
+        }
+
+        h1 {
+           text-transform: capitalize;
+            text-decoration: overline;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            text-decoration: line-through;
+        }
+
+        h3 {
+            text-transform: lowercase;
+            text-decoration: underline;
+        }
+
+        h4 {
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+
+        * {
+            text-align: center;
+            font-family: monospace;
+        }
+
+        #text {
+            text-shadow:2px 2px 1px aquamarine;
+        }
+
+        #box {
+            box-shadow: 9px 9px 5px gray;
+        }
+
+        #indent {
+            text-indent: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Typography</h1>
+    
+    <div id="myDiv">
+    <center>
+        <h1 id="text">This is a heading with text shadow.</h1>
+        <h1 id="box">This is a heading with box shadow.</h1>
+        <h1>
+           
+    <p class="p1">This is a paragraph with class "p1".</p>
+    </h1>
+    <h2>
+    <p class="text1">This is a paragraph with class "text1".</p>
+    </h2>
+    <div>
+        <p id="indent">This is a paragraph with text indentation.</p>
+    </div>
+    <h3>
+        <p>This is a paragraph without any class</p>
+        </h3>
+    <h4>
+        <p>This is a paragraph with inline styling.</p>
+        </h4>
+
+        
+    </center>
+    </div>
+</body>
+</html>
+
